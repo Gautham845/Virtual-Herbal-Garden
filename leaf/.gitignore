@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+leaf/venv/
+
+# Ignore large ML models
+*.h5
+*.pkl
+*.pyd
+*.pb
+
+# General Python ignores
+__pycache__/
+*.pyc
+*.log
+
+# Ignore TensorFlow binaries
+tensorflow/
